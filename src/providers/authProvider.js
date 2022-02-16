@@ -1,7 +1,6 @@
 import { fetchUtils } from 'react-admin';
 
-//const apiUrl = process.env.REACT_APP_API_URL;
-const apiUrl = "http://localhost:3001/api";
+const apiUrl = process.env.REACT_APP_API_BASE_URL;
 
 const httpClient = fetchUtils.fetchJson;
 

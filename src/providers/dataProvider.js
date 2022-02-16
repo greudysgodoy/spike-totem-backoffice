@@ -12,8 +12,7 @@ import { stringify } from "query-string";
  * delete      => DELETE http://my.api.url/posts/123
  */
 
-//let apiUrl = process.env.REACT_APP_API_URL;
-let apiUrl = "http://localhost:3001/api";
+let apiUrl = process.env.REACT_APP_API_BASE_URL;
 
 
 const httpClient = (url, options = {}) => {
