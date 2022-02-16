@@ -24,13 +24,13 @@ const TotemShow = (props) => {
         <ReferenceField label="Sucursal" source="subsidiary_id" reference="subsidiaries">
           <TextField source="name"/>
         </ReferenceField>
-        <TextField source="code" label="Codigo"/>
+        <TextField source="code" label="Código"/>
         <TextField source="ip" label="Ip" />
         <ArrayField source="functionalities" label="Funcionalidades">
           <Datagrid>
             <TextField source="name" label="Nombre"/>
             <TextField source="label" label="Etiqueta" />
-            <ImageField source="icon" title="Icono" />
+            <ImageField source="icon" title="Ícono" />
             <BooleanField source="hidden" label="Oculto" />
             <BooleanField source="disabled" label="Deshabilitado" />
           </Datagrid>
