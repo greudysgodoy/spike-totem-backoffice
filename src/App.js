@@ -14,9 +14,9 @@ const App = () => (
       authProvider={authProvider}
       theme={Theme}
     >
-        <Resource label="usuarios" name="users" list={UserList} edit={UserEdit} />
-        <Resource name="subsidiaries" list={SubsidiaryList} edit={SubsidiaryEdit} />
-        <Resource name="totems" list={TotemList} edit={TotemEdit} show={TotemShow} />
+        <Resource options={{ label:"Usuarios" }} name="users" list={UserList} edit={UserEdit} />
+        <Resource options={{ label:"Sucursales" }} name="subsidiaries" list={SubsidiaryList} edit={SubsidiaryEdit} />
+        <Resource options={{ label:"Totems" }} name="totems" list={TotemList} edit={TotemEdit} show={TotemShow} />
     </Admin>
 );
 

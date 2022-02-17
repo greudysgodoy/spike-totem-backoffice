@@ -29,8 +29,9 @@ const TotemShow = (props) => {
         <ArrayField source="functionalities" label="Funcionalidades">
           <Datagrid>
             <TextField source="name" label="Nombre"/>
-            <TextField source="label" label="Etiqueta" />
+            <TextField source="title" label="Etiqueta" />
             <ImageField source="icon" title="Ícono" />
+            <TextField source="path" title="Path" />
             <BooleanField source="hidden" label="Oculto" />
             <BooleanField source="disabled" label="Deshabilitado" />
           </Datagrid>

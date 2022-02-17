@@ -3,7 +3,7 @@ import { List, Datagrid, TextField, ReferenceField } from 'react-admin';
 
 const TotemList = props => (
     <List {...props}>
-        <Datagrid rowClick="edit">
+        <Datagrid rowClick="show">
             <TextField source="code" label="Codigo"/>
             <TextField source="ip" />
             <ReferenceField label="Sucursal" source="subsidiary_id" reference="subsidiaries">

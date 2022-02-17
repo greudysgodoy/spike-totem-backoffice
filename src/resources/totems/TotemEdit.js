@@ -38,8 +38,9 @@ const TotemEdit = (props) => {
         <ArrayInput source="functionalities" label="Funcionalidades">
           <SimpleFormIterator>
             <TextInput source="name" label="Nombre"/>
-            <TextInput source="label" label="Etiqueta" />
+            <TextInput source="title" label="Etiqueta" />
             <TextInput source="icon" label="Icono" />
+            <TextInput source="path" label="Path" />
             <BooleanInput source="hidden" label="Ocultar" />
             <BooleanInput source="disabled" label="Deshabilitar" />
           </SimpleFormIterator>
